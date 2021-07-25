@@ -1,0 +1,11 @@
+WEB
+1
+https://www.hottomotto.com/menu_list/index/13
+
+Selection=EntirePage
+Formatting=None
+PreFormattedTextToColumns=True
+ConsecutiveDelimitersAsOne=False
+SingleBlockTextImport=False
+DisableDateRecognition=False
+DisableRedirections=False

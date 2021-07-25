@@ -1,0 +1,43 @@
+.title {
+	color: #02ccba;
+	font-size: 70px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;}
+.title span {
+	color: #ff4a4a;
+}
+.discription {
+	padding-left: 10px;
+}
+.header-list li {
+	list-style: none;
+	float: right;
+	padding: 15px;
+}
+.product-list {
+	border-bottom: 1px solid #dee7ec;
+}
+.contents{
+	height: 1000px;
+}
+.contents-item {
+	float: left;
+	font-size: 10px;
+}
+.footer {
+	background-color: #02ccba;
+	height: 150px;
+	color: whitesmoke;
+}     
+.footer-logo {
+	font-size: 20px;
+	font-family: serif;
+	float: left;
+	padding: 10px;
+}
+.footer-list li {
+	list-style: none;
+	float: right;
+	padding: 15px;
+}
