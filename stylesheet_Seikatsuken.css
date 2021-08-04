@@ -11,6 +11,16 @@
 	padding-left: 10px;
 	padding-bottom: 40px;
 }
+input {
+	border: 1px solid #dee7ec;
+	padding: 5px;
+}
+.searching-area {
+	width: 400px;
+}
+.search-button {
+	width: 70px;
+}
 .header-list li {
 	list-style: none;
 	float: right;
@@ -34,7 +44,7 @@
 .product-name {
 	font-size: 13.5px;
 }
-.footer {
+footer {
 	background-color: #02ccba;
 	height: 150px;
 	color: whitesmoke;
