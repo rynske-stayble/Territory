@@ -21,8 +21,7 @@ f = open('hottomotto_out.txt', mode='w')
 for i in range(len(cmenu__titles)):
 	f.write('		<div class="contents-item">\n'\
 	'			<img src="https://www.hottomotto.com' + cmenu__picts[i].get("src") + '" width="auto" height="200px">\n'\
-	'			<p clss="product-name">' + cmenu__titles[i] + '</p>\n'\
-	'			<p class="JAN">JAN: -</p>\n'\
+	'			<p class="product-name">' + cmenu__titles[i] + '</p>\n'\
 	'			<p class="place-price">ほっともっと 東大正門前店: ' + cmenu__prices[i].text + '円(税込)</p>\n'\
 	'		</div>\n')
 f.close()
