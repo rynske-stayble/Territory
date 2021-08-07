@@ -1,3 +1,5 @@
+# coding: UTF-8
+
 from urllib import request
 from bs4 import BeautifulSoup
 
@@ -16,12 +18,13 @@ for j in range(len(cmenu__titles)):
 cmenu__prices = jstab_wrap.find_all('span', class_="c-menu__price")
 
 
-f = open('hottomotto_out.txt', mode='w')
-
-for i in range(len(cmenu__titles)):
+path_w = 'pythonTest.txt'
+with open(path_w, mode='r+') as f :
+	f.seek('sdg')	
+		# for i in range(len(cmenu__titles)):
 	f.write('		<div class="contents-item">\n'\
-	'			<img src="https://www.hottomotto.com' + cmenu__picts[i].get("src") + '" width="auto" height="200px">\n'\
-	'			<p class="product-name">' + cmenu__titles[i] + '</p>\n'\
-	'			<p class="place-price">ほっともっと 東大正門前店: ' + cmenu__prices[i].text + '円(税込)</p>\n'\
+	'			<img src="https://www.hottomotto.com' + cmenu__picts[0].get("src") + '" width="auto" height="200px">\n'\
+	'			<p class="product-name">' + cmenu__titles[0] + '</p>\n'\
+	'			<p class="place-price">ほっともっと 東大正門前店: ' + cmenu__prices[0].text + '円(税込)</p>\n'\
 	'		</div>\n')
 f.close()
