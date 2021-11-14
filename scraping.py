@@ -90,7 +90,6 @@ for categorylink in categoryLinks:
 
 #htmlファイル群の作成
 
-os.mkdir('html_files')
 htmlDir = 'html_files'
 shutil.rmtree(htmlDir)
 os.makedirs(htmlDir, exist_ok = True)
